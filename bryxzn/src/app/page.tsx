@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Bryxzn | Tech Content",
+  description: "Portfolio and projects by Bryxzn",
+};
+
 export default function Home() {
   return (
     <main
