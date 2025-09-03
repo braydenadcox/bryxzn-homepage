@@ -1,3 +1,5 @@
+import Dropdown from '@/components/dropdown';
+
 export const metadata = {
   title: "Bryxzn | Tech Content",
   description: "Portfolio and projects by Bryxzn",
@@ -86,7 +88,9 @@ export default function Home() {
           </div>
       <div className='flex flex-col items-center text-black background-white'>
               <div className='flex flex-col'>
-                <p>Test</p>
+                <Dropdown label="My PC Specs"/>
+                  <a>AMD Ryzen 7 7800 X3D</a>
+                  <a>ASUS ROG Strix X870-A Gaming WiFi 7</a>
               </div>
               <div className='flex flex-col'>
                 <p>Test</p>
