@@ -21,10 +21,6 @@ export default function Home() {
     >
       <h1
         style={{
-          position: "absolute",
-          top: "18%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
           textAlign: "center",
           fontFamily: "'Satoshi Variable', 'Inter', sans-serif",
           fontWeight: 600,
@@ -54,7 +50,9 @@ export default function Home() {
           >
             Welcome to my page!
           </p>
-          <div style={{
+        </span>
+      </h1>
+      <div style={{
             display: "flex",
             justifyContent: "center",
             fontSize: "1.6rem",
@@ -85,12 +83,20 @@ export default function Home() {
                 </svg>
               </a>
           </div>
-        </span>
-      </h1>
+      <div className='flex flex-col items-center'>
+              <div className='flex flex-col'>
+                <p>Test</p>
+              </div>
+              <div className='flex flex-col'>
+                <p>Test</p>
+              </div>
+              <div className='flex flex-col'>
+                <p>Test</p>
+              </div>
+              <div className='flex flex-col'>
+                <p>Test</p>
+              </div>
+          </div>
     </main>
   );
 }
-
-/* <a href='https://www.instagram.com/bryxzn.tech/' target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href='https://www.tiktok.com/@bryxzn.tech' target="_blank" rel="noopener noreferrer">TikTok</a>
-            <a href='https://www.youtube.com/@bryxznn' target="_blank" rel="noopener noreferrer">YouTube</a> */
