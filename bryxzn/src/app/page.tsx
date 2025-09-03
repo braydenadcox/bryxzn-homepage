@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <main
       style={{
+        paddingTop: "5rem",
         minHeight: "100vh",
         backgroundImage: `
           url('/images/BryxznTexture.png'),   /* texture layer */
@@ -83,7 +84,7 @@ export default function Home() {
                 </svg>
               </a>
           </div>
-      <div className='flex flex-col items-center'>
+      <div className='flex flex-col items-center text-black background-white'>
               <div className='flex flex-col'>
                 <p>Test</p>
               </div>
