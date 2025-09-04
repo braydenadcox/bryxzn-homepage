@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 interface DropdownProps {
     label: string;
@@ -15,7 +16,12 @@ export default function Dropdown({ label, children }: DropdownProps) {
             {/* Dropdown Button */}
         <button
             onClick={() => setOpen(!open)}
-            className="px-88 py-10 bg-white text-black rounded-md hover:bg-gray-400">
+            className="flex items-center justify-start px-88 
+            bg-white border border-white/10 hover:bg-gray-200 transition-colors
+            duration-300 ease-in-out text-black rounded-md">
+                <div className='h-full aspect-square shrink-0 rounded-md overflow-hidden shrink-0 px-4 py-2'>
+                    <Image className='object-cover w-15 h-15' src="/images/BryxznPC.jpg" alt="Profile Picture" width={40} height={40} />
+                </div>
             {label}
         </button>
 
