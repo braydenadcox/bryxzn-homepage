@@ -15,7 +15,7 @@ export default function Dropdown({ label, children }: DropdownProps) {
             {/* Dropdown Button */}
         <button
             onClick={() => setOpen(!open)}
-            className="px-4 py-2 bg-white text-black rounded-md hover:bg-gray-400">
+            className="px-88 py-10 bg-white text-black rounded-md hover:bg-gray-400">
             {label}
         </button>
 

@@ -86,20 +86,18 @@ export default function Home() {
                 </svg>
               </a>
           </div>
-      <div className='flex flex-col items-center text-black background-white'>
+      <div className='flex flex-col items-center mt-12 gap-16 text-black background-white'>
               <div className='flex flex-col'>
-                <Dropdown label="My PC Specs"/>
-                  <a>AMD Ryzen 7 7800 X3D</a>
-                  <a>ASUS ROG Strix X870-A Gaming WiFi 7</a>
+                <Dropdown />
               </div>
               <div className='flex flex-col'>
-                <p>Test</p>
+                <Dropdown />
               </div>
               <div className='flex flex-col'>
-                <p>Test</p>
+                <Dropdown />
               </div>
               <div className='flex flex-col'>
-                <p>Test</p>
+                <Dropdown />
               </div>
           </div>
     </main>
