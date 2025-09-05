@@ -87,17 +87,17 @@ export default function Home() {
               </a>
           </div>
       <div className='flex flex-col items-center mt-12 gap-16 text-black background-white'>
-              <div className='flex flex-col'>
-                <Dropdown />
+              <div className='flex flex-col self-stretch mx-255'>
+                <Dropdown label='My PC Specs' imageSrc="/images/BryxznPC.jpg" imageAlt="Profile Picture"/>
               </div>
-              <div className='flex flex-col'>
-                <Dropdown />
+              <div className='flex flex-col self-stretch mx-255'>
+                <Dropdown label='Setup Accessories' imageSrc="/images/BryxznKeyboard.JPG" imageAlt="Profile Picture"/>
               </div>
-              <div className='flex flex-col'>
-                <Dropdown />
+              <div className='flex flex-col self-stretch mx-255'>
+                <Dropdown label='Setup Lights' imageSrc="/images/BryxznSetup.JPEG" imageAlt="Profile Picture"/>
               </div>
-              <div className='flex flex-col'>
-                <Dropdown />
+              <div className='flex flex-col self-stretch mx-255'>
+                <Dropdown label='Company Collabs' imageSrc="/BryxznSetup.JPEG" imageAlt="Profile Picture"/>
               </div>
           </div>
     </main>
